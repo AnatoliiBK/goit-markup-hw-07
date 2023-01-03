@@ -21,6 +21,10 @@
          &:hover > .navigation__logo-s {
              color: var(--brand-color-logo);
          }
+
+         &:focus > .navigation__logo-s {
+            color: var(--brand-color-logo);
+        }
      }
  
      &__logo-s {
