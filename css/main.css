@@ -496,7 +496,7 @@ body {
 }
 
 /*  НАША КОМАНДА  соціальні додатки в картці  */
-.application {
+.sign {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -514,11 +514,11 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.application:hover {
+.sign:hover {
   background-color: var(--brand-color-link);
   fill: var(--brand-color-hero);
 }
-.application:focus {
+.sign:focus {
   background-color: var(--brand-color-link);
 }
 
@@ -606,7 +606,7 @@ body {
   margin-bottom: 0;
   padding-left: 0;
 }
-.footer__trademark {
+.footer__sign {
   width: 44px;
   height: 44px;
   display: -webkit-box;
@@ -625,10 +625,10 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__trademark:hover {
+.footer__sign:hover {
   background-color: var(--brand-color-link);
 }
-.footer__trademark:focus {
+.footer__sign:focus {
   background-color: var(--brand-color-link);
 }
 .footer__form {
@@ -975,6 +975,7 @@ body {
   position: relative;
 }
 .modal__btn {
+  display: block;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1009,6 +1010,7 @@ body {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
 .submit-button:hover {
